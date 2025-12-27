@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-17T11:12:23 IST" name="Default suite" finished-at="2025-12-17T11:12:27 IST" duration-ms="4104">
+    <groups>
+    </groups>
+    <test started-at="2025-12-17T11:12:23 IST" name="Default test" finished-at="2025-12-17T11:12:27 IST" duration-ms="4104">
+      <class name="SampleTests.TFMSignup">
+        <test-method signature="createUserSignUp()[pri:0, instance:SampleTests.TFMSignup@747ddf94]" started-at="2025-12-17T11:12:23 IST" name="createUserSignUp" finished-at="2025-12-17T11:12:27 IST" duration-ms="4037" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createUserSignUp -->
+      </class> <!-- SampleTests.TFMSignup -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

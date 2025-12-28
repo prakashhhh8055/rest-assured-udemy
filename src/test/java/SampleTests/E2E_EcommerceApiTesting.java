@@ -104,6 +104,17 @@ public class E2E_EcommerceApiTesting {
 		.then().log().all().extract().response().asString();
 		System.out.println(DeleteProductRes);
 		
+		//Delete Order
+		RequestSpecification DeleteOrderReq =new RequestSpecBuilder().setBaseUri("https://rahulshettyacademy.com")
+				.addHeader("authorization",token)
+				.build();
+		
+		String DeleteOrderRes = given().spec(DeleteProductReq).pathParam("orders",OrderID)
+		.when().delete("/api/ecom/order/delete-order/{orders}")
+		.then().log().all().extract().response().asString();
+		System.out.println(DeleteOrderRes);
+		
+		
 		
 		
 													

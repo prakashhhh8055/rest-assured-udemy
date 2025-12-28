@@ -1,19 +1,11 @@
 package SampleTests;
-
 import static io.restassured.RestAssured.*;
-
-
-
 import java.util.Arrays;
-
-import io.restassured.RestAssured;
 import io.restassured.builder.RequestSpecBuilder;
 import io.restassured.builder.ResponseSpecBuilder;
 import io.restassured.specification.RequestSpecification;
 import io.restassured.specification.ResponseSpecification;
-import io.restassured.matcher.ResponseAwareMatcher;
 import io.restassured.response.Response;
-import pojo.AddPlaceResponse;
 import pojo.Location;
 import pojo.PlaceDetails;
 
